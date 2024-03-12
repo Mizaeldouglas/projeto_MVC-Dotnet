@@ -3,6 +3,15 @@
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+
+//var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+//builder.Services.AddDbContext<AppDBContext>(options => options.UseSqlite(connectionString));
+
+//var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+//builder.Services.AddDbContext<AppDBContext>(options => options.UseSqlite(connectionString));
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
